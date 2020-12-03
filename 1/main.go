@@ -32,6 +32,7 @@ func main() {
 				if numx+numy+numz == 2020 {
 					fmt.Println(numx, numy, numz)
 					fmt.Println(numx * numy * numz)
+					break
 				}
 			}
 		}
